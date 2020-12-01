@@ -1,0 +1,143 @@
+#feuille {
+    background-color: white;
+    box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 70px black;
+    height: 1096px;
+    width: 793px;
+    margin-left: 250px;
+}
+
+.box {
+    background: rgb(135, 65, 4);
+    background: linear-gradient(142deg, rgba(135, 65, 4, 1) 54%, rgba(230, 111, 0, 1) 100%);
+    height: 200px;
+    width: 300px;
+    color: white;
+}
+
+.title {
+    position: relative;
+    color: white;
+    top: 20px;
+    right: 0px;
+    text-align: center;
+    font-size: 34px;
+}
+
+#dev {
+    position: relative;
+    color: white;
+    top: 140px;
+    right: 0px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.whitebox {
+    background-color: white;
+    position: relative;
+    left: 300px;
+    top: -200px;
+    height: 200px;
+    width: 492px;
+    color: white;
+}
+
+#pp {
+    background-color: black;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    border-radius: 100px;
+    height: 170px;
+    width: 170px;
+    border-left: 5px solid #665C4D;
+    border-top: 5px solid #665C4D;
+    border-right: 5px solid #665C4D;
+    border-bottom: 5px solid #665C4D;
+}
+
+#photopp {
+    position: relative;
+    height: 170px;
+    width: 170px;
+    border-radius: 100px;
+}
+
+#contact {
+    position: relative;
+    top: -180px;
+    left: 260px;
+    color: rgb(135, 65, 4);
+}
+
+.infoperso {
+    color: rgb(135, 65, 4);
+    position: relative;
+    left: 300px;
+    top: -190px;
+}
+
+#permis {
+    top: -234px;
+}
+
+#vehicule {
+    top: -277px;
+}
+
+.icones {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    top: -224px;
+    left: 280px;
+}
+
+#calendar {
+    left: 274px;
+}
+
+#idcard {
+    left: 274px;
+    top: -268px;
+}
+
+#car {
+    top: -310px;
+    left: 274px;
+}
+
+#text-motivation {
+    position: relative;
+    color: rgb(135, 65, 4);
+    ;
+    top: -297px;
+    left: 230px;
+    font-size: 11px;
+}
+
+#Box2 {
+    position: relative;
+    top: -190px;
+}
+
+#imgfolio {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 100px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#Box3 {
+    position: relative;
+    top: -380px;
+}
+
+#whitebox2 {
+    position: relative;
+    background-color: black;
+    top: -390px;
+}
