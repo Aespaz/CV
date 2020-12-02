@@ -8,6 +8,7 @@
 }
 
 .box {
+    position: relative;
     background: rgb(135, 65, 4);
     background: linear-gradient(142deg, rgba(135, 65, 4, 1) 54%, rgba(230, 111, 0, 1) 100%);
     height: 200px;
@@ -24,13 +25,18 @@
     font-size: 34px;
 }
 
+#name {
+    position: relative;
+    top: 1px;
+}
+
 #dev {
     position: relative;
     color: white;
     top: 140px;
     right: 0px;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .whitebox {
@@ -111,10 +117,17 @@
 #text-motivation {
     position: relative;
     color: rgb(135, 65, 4);
-    ;
-    top: -297px;
+    top: -317px;
     left: 230px;
-    font-size: 11px;
+    font-size: 17px;
+    z-index: 2;
+    text-align: center;
+    border-top: 5px solid rgb(135, 65, 4);
+    border-left: 5px solid rgb(135, 65, 4);
+    border-right: 5px solid rgb(135, 65, 4);
+    border-bottom: 5px solid rgb(135, 65, 4);
+    height: 120px;
+    width: 230px;
 }
 
 #Box2 {
@@ -124,6 +137,7 @@
 
 #imgfolio {
     position: relative;
+    top: 20px;
     height: 100px;
     width: 100px;
     left: 100px;
@@ -133,11 +147,39 @@
 
 #Box3 {
     position: relative;
-    top: -380px;
+    bottom: 120px;
+    left: -300px;
 }
 
 #whitebox2 {
     position: relative;
-    background-color: black;
+    background-color: white;
     top: -390px;
+}
+
+.grosseIcones {
+    position: relative;
+    top: 20px;
+    height: 100px;
+    width: 100px;
+    left: 100px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#coquelien {
+    position: relative;
+    background: rgb(135, 65, 4);
+    background: linear-gradient(142deg, rgba(135, 65, 4, 1) 54%, rgba(230, 111, 0, 1) 100%);
+    border-radius: 30px;
+    left: 100px;
+    top: -140px;
+    height: 150px;
+    width: 300px;
+}
+
+#imgCp {
+    position: relative;
+    height: 100px;
+    width: 100px;
 }
