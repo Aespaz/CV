@@ -1,6 +1,4 @@
-body {
-    background: url('eafb6a74.png');
-}
+
 #feuille {
     background-color: white;
     box-shadow: 10px 10px 10px black;
@@ -179,6 +177,7 @@ body {
     top: -140px;
     height: 150px;
     width: 300px;
+  
 }
 
 #imgCp {
@@ -194,4 +193,21 @@ body {
     position: relative;
     color: white;
     text-decoration: none;
+    left: 10px;
+}
+.transitionzoom{
+    position: relative;
+    transition: transform .1s; /* Animation */
+    margin: 0;
+    right:-100px;
+    
+}
+.transitionzoom:hover{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.1);
+    transform: scale(1.13);
+}
+.lienentier{
+    background-color: red;
+    z-index: 3;
 }
