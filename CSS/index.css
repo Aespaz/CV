@@ -1,20 +1,24 @@
-
 #feuille {
+    position: relative;
     background-color: white;
     box-shadow: 10px 10px 10px black;
     box-shadow: 10px 10px 70px black;
     height: 1096px;
     width: 793px;
-    margin-left: 250px;
+    left: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+    
 }
 
-.box {
+.allbox {
     position: relative;
     background: rgb(135, 65, 4);
     background: linear-gradient(142deg, rgba(135, 65, 4, 1) 54%, rgba(230, 111, 0, 1) 100%);
     height: 200px;
     width: 300px;
     color: white;
+    top: -20px;
 }
 
 .title {
@@ -148,8 +152,8 @@
 
 #Box3 {
     position: relative;
-    bottom: 127px;
     left: -300px;
+    top: -105px;
 }
 
 #whitebox2 {
@@ -177,7 +181,6 @@
     top: -140px;
     height: 150px;
     width: 300px;
-  
 }
 
 #imgCp {
@@ -189,25 +192,33 @@
     height: 100px;
     width: 280px;
 }
-#liencodepen{
+
+#liencodepen {
     position: relative;
     color: white;
     text-decoration: none;
-    left: 10px;
+    left: 14px;
+    top: 10px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.transitionzoom{
+
+.transitionzoom {
     position: relative;
-    transition: transform .1s; /* Animation */
+    transition: transform .1s;
+    /* Animation */
     margin: 0;
-    right:-100px;
-    
+    right: -100px;
 }
-.transitionzoom:hover{
+
+.transitionzoom:hover {
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.1);
     transform: scale(1.13);
 }
-.lienentier{
+#whitebox3{
+    position: relative;
+    top: -305px;
+    left: 10px;
     background-color: red;
-    z-index: 3;
 }
