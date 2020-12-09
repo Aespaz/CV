@@ -186,24 +186,41 @@
 
 #imgCp {
     position: relative;
-    top: 6px;
-    left: 10px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    top: 10px;
+    left: 20px;
+    border-radius: 30px;
     height: 100px;
-    width: 280px;
+    width: 100px;
 }
-
+#imgGit{
+    position: relative;
+    left: 60px;
+    top: 10px;
+    border-radius: 30px;
+    height: 100px;
+    width: 100px;
+}
 #liencodepen {
     position: relative;
     color: white;
     text-decoration: none;
-    left: 14px;
-    top: 10px;
-    font-size: 14px;
+    left: -40px;
+    top: 5px;
+    font-size: 11px;
+    text-align: center;
+    margin-left: -60px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+#liengit{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    left: 70px;
+    top: -19px;
+    font-size: 11px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .transitionzoom {
     position: relative;
     transition: transform .1s;
@@ -228,8 +245,40 @@
 }
 .alldiplome{
     position: relative;
-    top: 40px;
+    top: 20px;
+    left: 10px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     color: rgb(135, 65, 4);
+}
+#Box4{
+    position: relative;
+    top: -291px;
+    left: -300px;
+}
+#Imgvalise{
+    position: relative;
+    top: -5px;
+}
+#parcour{
+    position: relative;
+    font-size: 25px;
+    top: 10px;
+}
+#whitebox4{
+    position: relative;
+    position: relative;
+    top: -491px;
+    left: 10px;
+    width: 400px;
+    height: 360px;
+    border: 2px solid rgb(135, 65, 4);
+    border-radius: 60px;
+
+}
+.parcoursPro{
+    position: relative;
+    left: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(135, 65, 4);
 }
