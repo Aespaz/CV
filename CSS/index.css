@@ -109,7 +109,7 @@
 }
 #RQTH{
     position: relative;
-    top: -280px;
+    top: -289px;
     left: 270px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -138,7 +138,7 @@
 #text-motivation {
     position: relative;
     color: rgb(135, 65, 4);
-    top: -326px;
+    top: -335px;
     left: 230px;
     font-size: 17px;
     z-index: 2;
@@ -220,7 +220,7 @@
     position: relative;
     color: white;
     text-decoration: none;
-    left: -40px;
+    left: -48px;
     top: 5px;
     font-size: 11px;
     text-align: center;
@@ -231,7 +231,7 @@
     position: relative;
     color: white;
     text-decoration: none;
-    left: 70px;
+    left: 60px;
     top: -19px;
     font-size: 11px;
     text-align: center;
@@ -261,7 +261,7 @@
 }
 .alldiplome{
     position: relative;
-    top: 20px;
+    top: 18px;
     left: 10px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 17px;
@@ -287,13 +287,14 @@
     top: -491px;
     left: 10px;
     width: 400px;
-    height: 360px;
+    height: 370px;
     border: 2px solid rgb(135, 65, 4);
     border-radius: 60px;
 
 }
 .parcoursPro{
     position: relative;
+    top: 15px;
     left: 30px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:rgb(135, 65, 4);
