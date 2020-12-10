@@ -195,7 +195,7 @@
     background: linear-gradient(142deg, rgba(135, 65, 4, 1) 54%, rgba(230, 111, 0, 1) 100%);
     border-radius: 30px;
     left: 100px;
-    top: -140px;
+    top: -130px;
     height: 150px;
     width: 300px;
 }
@@ -255,13 +255,13 @@
     top: -321px;
     left: 10px;
     width: 400px;
-    height: 200px;
+    height: 205px;
     border: 2px solid rgb(135, 65, 4);
     border-radius: 60px;
 }
 .alldiplome{
     position: relative;
-    top: 18px;
+    top: 17px;
     left: 10px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 17px;
@@ -287,14 +287,14 @@
     top: -491px;
     left: 10px;
     width: 400px;
-    height: 370px;
+    height: 380px;
     border: 2px solid rgb(135, 65, 4);
     border-radius: 60px;
 
 }
 .parcoursPro{
     position: relative;
-    top: 15px;
+    top: 5px;
     left: 30px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:rgb(135, 65, 4);
